@@ -16,4 +16,4 @@ Quando se trata da programacao IOS, temos também a ViewController que basicamen
 
 > Figura 2
 
-### <img src="https://koenig-media.raywenderlich.com/uploads/2019/12/MVVM-Diagram.png" width="350" height="650" /> *figura 2*
+### <img src="https://koenig-media.raywenderlich.com/uploads/2019/12/MVVM-Diagram.png" width="350" height="650" />
