@@ -21,7 +21,7 @@ class MyCustomView: UIView {
         button.setTitle("BOTÃO", for: .normal)
         return button
     }()
-
+    // Label a qual sera atualizada de acordo com a quantidade de vezes que o botao foi apertado.
     private let counter: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false

@@ -15,8 +15,10 @@ import UIKit
 
 class MyCustomViewModel {
 
-    private var myModel: [MyModel] = []
+    private var myModel: [MyModel] = [] // Instância do nosso model.
 
+    /* Na linha abaixo(l: 21) temos uma variavel computada que será utilizada
+     para nos dizer a quantidade de vezes que o botao foi apertado, e posteriormente mostrado na View. */
     var myModelLenghtAsString: String {
         return String(myModel.count)
     }

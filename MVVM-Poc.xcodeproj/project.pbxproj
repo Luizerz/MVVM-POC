@@ -84,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F1E86302912E83900133B42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4FE30DDF2912CFD100F84B4B /* MyCustomView.swift */,
+				4FF9D3D528EF48FF0010CB8F /* Protocols */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4F795DAA28EDC16500B643F6 = {
 			isa = PBXGroup;
 			children = (
@@ -107,8 +116,8 @@
 		4F795DB528EDC16500B643F6 /* MVVM-Poc */ = {
 			isa = PBXGroup;
 			children = (
+				4F1E86302912E83900133B42 /* Views */,
 				4FE30DE52912D7A000F84B4B /* Models */,
-				4FF9D3D528EF48FF0010CB8F /* Protocols */,
 				4F795DE728EDC17B00B643F6 /* ViewModels */,
 				4F795DE928EDC19200B643F6 /* Controllers */,
 				4F795DE828EDC18D00B643F6 /* Commons */,
@@ -158,7 +167,6 @@
 			isa = PBXGroup;
 			children = (
 				4F795DBA28EDC16500B643F6 /* ViewController.swift */,
-				4FE30DDF2912CFD100F84B4B /* MyCustomView.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
