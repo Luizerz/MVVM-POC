@@ -21,6 +21,7 @@ class MyCustomView: UIView {
         button.setTitle("BOTÃO", for: .normal)
         return button
     }()
+
     // Label a qual sera atualizada de acordo com a quantidade de vezes que o botao foi apertado.
     private let counter: UILabel = {
         let label = UILabel()
@@ -29,15 +30,11 @@ class MyCustomView: UIView {
         return label
     }()
 
-    init() {
-        super.init(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
+    override func didMoveToSuperview() {
+        super.didMoveToSuperview()
         self.addSubview(myCustomButton)
         self.addSubview(counter)
         setContraints()
-    }
-
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
 
     // Contraits para o botão

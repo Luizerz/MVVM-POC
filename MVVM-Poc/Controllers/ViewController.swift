@@ -9,15 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
     // Inicializamos nossa View(MyCustomView) e também declaramos a ViewModel(MyCustomViewModel).
-    private let myCustomView: MyCustomView = MyCustomView()
-    private var myCustonViewModel: MyCustomViewModel!
+    private let myCustomView: MyCustomView = MyCustomView(
+        frame: CGRect(
+            x: 0,
+            y: 0,
+            width: UIScreen.main.bounds.width,
+            height: UIScreen.main.bounds.height
+        )
+    )
+    // Abaixo inicializamos a MyCustomViewModel.
+    private var myCustonViewModel: MyCustomViewModel = MyCustomViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        myCustonViewModel = MyCustomViewModel() // Aqui inicializamos a MyCustomViewModel.
         view.addSubview(myCustomView)   // Adicionamos a MyCustomView como subview da View(view root) que temos na controller.
         myCustomView.delegate = self    // Atribuimos nossa ViewController ao delegate da MyCustomView
-
     }
 }
 
