@@ -8,7 +8,7 @@
 evocará operações sobre a camada Model quando for necessário.  
   
  
-Quando se trata da programacao IOS, temos também a ViewController que basicamente administra tudo que vai acontecer na View que esta contida nela. Podemos obervar na imagem seguinte as interacoes entre todas as camadas. Vale ressaltar que comumente a ViewController é tratada como View em varios modelos de MVVM [(exemplo figura 2)](https://github.com/Luizerz/MVVM-POC/edit/main/README.md#-figura-2) .  
+Quando se trata da programacao IOS, temos também a ViewController que basicamente administra tudo que vai acontecer na View que esta contida nela. Podemos obervar na imagem seguinte as interacoes entre todas as camadas. Vale ressaltar que comumente a ViewController é tratada como View em varios modelos de MVVM [(exemplo figura 2)](https://github.com/Luizerz/MVVM-POC#-1)  
 
 > Figura 1
   
